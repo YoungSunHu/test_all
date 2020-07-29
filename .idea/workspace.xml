@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="effec159-60b6-4cd2-8d63-2b5f7cb829a7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1S2Ymo3Fq00yDtOF5onzupmRUuK" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570528823372" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5411765" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.hqy.mybatisTest.service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hqy.concurrency08" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hqy.forkjoin" />
+      <recent name="com.hqy.condition" />
+      <recent name="com.hqy.concurrencypackage" />
+      <recent name="com.hqy.concurrency08" />
+      <recent name="com.hqy.concurrency_TreadLocal" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA_Space\Test-All\src\test" />
+      <recent name="E:\IDEA_Space\Test-All\src\main\resources\com\hqy\mybatisTest" />
+      <recent name="E:\IDEA_Space\Test-All\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ForkJoinRecursivTask02">
+    <configuration name="ConditionTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.condition.ConditionTest03" />
+      <module name="Test-All" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hqy.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForkJoinRecursivTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.forkjoin.ForkJoinRecursivTask" />
+      <module name="Test-All" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hqy.forkjoin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForkJoinRecursivTask02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.forkjoin.ForkJoinRecursivTask02" />
+      <module name="Test-All" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hqy.forkjoin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StampedLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.lock.StampedLockTest" />
+      <module name="Test-All" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hqy.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StampedLockTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.lock.StampedLockTest02" />
+      <module name="Test-All" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hqy.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ForkJoinRecursivTask02" />
+        <item itemvalue="Application.ForkJoinRecursivTask" />
+        <item itemvalue="Application.StampedLockTest02" />
+        <item itemvalue="Application.StampedLockTest" />
+        <item itemvalue="Application.ConditionTest03" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\YoungSun\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="effec159-60b6-4cd2-8d63-2b5f7cb829a7" name="Default Changelist" comment="" />
+      <created>1561597856953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561597856953</updated>
+      <workItem from="1561597861618" duration="7622000" />
+      <workItem from="1561684404258" duration="20778000" />
+      <workItem from="1564052036976" duration="768000" />
+      <workItem from="1569488169773" duration="675000" />
+      <workItem from="1569551946766" duration="8154000" />
+      <workItem from="1569809409413" duration="4801000" />
+      <workItem from="1569837692674" duration="751000" />
+      <workItem from="1569912236063" duration="1138000" />
+      <workItem from="1569917147102" duration="5072000" />
+      <workItem from="1569979401097" duration="9510000" />
+      <workItem from="1570063373603" duration="874000" />
+      <workItem from="1570065970981" duration="2897000" />
+      <workItem from="1570151927272" duration="16366000" />
+      <workItem from="1570229429542" duration="11314000" />
+      <workItem from="1570322065659" duration="5025000" />
+      <workItem from="1570402494010" duration="6958000" />
+      <workItem from="1570496298834" duration="5527000" />
+      <workItem from="1570519095644" duration="5720000" />
+      <workItem from="1570763321133" duration="10145000" />
+      <workItem from="1570841604436" duration="441000" />
+      <workItem from="1570849838453" duration="4324000" />
+      <workItem from="1571106522350" duration="12655000" />
+      <workItem from="1571186941797" duration="2490000" />
+      <workItem from="1571191053336" duration="2397000" />
+      <workItem from="1571211162016" duration="78000" />
+      <workItem from="1571229614800" duration="2948000" />
+      <workItem from="1571275020984" duration="20000" />
+      <workItem from="1571282582571" duration="6713000" />
+      <workItem from="1571318257797" duration="3000" />
+      <workItem from="1571448102936" duration="1232000" />
+      <workItem from="1571640791600" duration="1009000" />
+      <workItem from="1571660768065" duration="4026000" />
+      <workItem from="1571705225567" duration="25000" />
+      <workItem from="1571745753168" duration="5844000" />
+      <workItem from="1571792246120" duration="29000" />
+      <workItem from="1571813935483" duration="972000" />
+      <workItem from="1571877803979" duration="2353000" />
+      <workItem from="1571923370900" duration="3259000" />
+      <workItem from="1571965626368" duration="17000" />
+      <workItem from="1572072898145" duration="1879000" />
+      <workItem from="1572224554982" duration="48000" />
+      <workItem from="1572336933881" duration="7438000" />
+      <workItem from="1572396602168" duration="1366000" />
+      <workItem from="1572419379864" duration="2509000" />
+      <workItem from="1572570587088" duration="10381000" />
+      <workItem from="1572610799712" duration="1647000" />
+      <workItem from="1572678681262" duration="5989000" />
+      <workItem from="1572692078296" duration="621000" />
+      <workItem from="1572828279344" duration="2149000" />
+      <workItem from="1572833855323" duration="9350000" />
+      <workItem from="1572915203513" duration="631000" />
+      <workItem from="1573004726218" duration="8106000" />
+      <workItem from="1573091971074" duration="2955000" />
+      <workItem from="1573113797471" duration="5717000" />
+      <workItem from="1573174274895" duration="1259000" />
+      <workItem from="1573273403211" duration="3423000" />
+      <workItem from="1573341178047" duration="5182000" />
+      <workItem from="1573434370651" duration="51000" />
+      <workItem from="1573453841759" duration="4420000" />
+      <workItem from="1573518755657" duration="955000" />
+      <workItem from="1573606234582" duration="2787000" />
+      <workItem from="1573626741414" duration="4888000" />
+      <workItem from="1573692731551" duration="1857000" />
+      <workItem from="1573780311234" duration="1361000" />
+      <workItem from="1574063136813" duration="4652000" />
+      <workItem from="1574073369307" duration="1867000" />
+      <workItem from="1574078021971" duration="9000" />
+      <workItem from="1575177441298" duration="1121000" />
+      <workItem from="1575179828236" duration="1544000" />
+      <workItem from="1575712718971" duration="17000" />
+      <workItem from="1576890053849" duration="8127000" />
+      <workItem from="1576924777971" duration="5856000" />
+      <workItem from="1576995855322" duration="2936000" />
+      <workItem from="1577178648575" duration="1479000" />
+      <workItem from="1577237695161" duration="6301000" />
+      <workItem from="1577246747898" duration="1733000" />
+      <workItem from="1577322961988" duration="3000" />
+      <workItem from="1578119575621" duration="10591000" />
+      <workItem from="1578131184354" duration="2718000" />
+      <workItem from="1578214942665" duration="3769000" />
+      <workItem from="1578230854343" duration="636000" />
+      <workItem from="1578234138515" duration="1638000" />
+      <workItem from="1578261132085" duration="694000" />
+      <workItem from="1578273236174" duration="389000" />
+      <workItem from="1580636462986" duration="2211000" />
+      <workItem from="1580642047621" duration="3979000" />
+      <workItem from="1580690372508" duration="7266000" />
+      <workItem from="1591326088755" duration="1755000" />
+      <workItem from="1591336205050" duration="1742000" />
+      <workItem from="1591403519869" duration="1510000" />
+      <workItem from="1591495116320" duration="592000" />
+      <workItem from="1594967804170" duration="2054000" />
+      <workItem from="1595385947564" duration="4715000" />
+      <workItem from="1595397893147" duration="11996000" />
+      <workItem from="1595466195120" duration="18926000" />
+      <workItem from="1595552800518" duration="12618000" />
+      <workItem from="1595594994333" duration="1812000" />
+      <workItem from="1595766349271" duration="8393000" />
+      <workItem from="1595810700010" duration="17590000" />
+      <workItem from="1595897933441" duration="10404000" />
+      <workItem from="1595984153528" duration="4944000" />
+      <workItem from="1596013705617" duration="837000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 14m 26s.xml">
+      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 17m 02s.xml">
+      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 19m 41s.xml">
+      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 19m 53s.xml">
+      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 25m 19s.xml">
+      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 25m 51s.xml">
+      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 28m 24s.xml">
+      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 29m 12s.xml">
+      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 29m 49s.xml">
+      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hqy/concurrency/ThreadSimpleAPI/ThreadService.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hqy/httpTest/httpClientTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hqy/httpTest/HikIBuilding.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hqy/websocket/server/WebSocketServer.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+
+<mapper namespace="com.hqy.mybatisTest.SchoolMapper">
+    <resultMap id="schoolMap" type="com.hqy.mybatisTest.model.School">
+        <id property="id" column="schoolId"/>
+        <result property="schoolName" column="schoolName"/>
+        <collection property="students" ofType="com.hqy.mybatisTest.model.Student">
+            <id property="id" column="studentId"/>
+            <result property="name" column="studentName"/>
+            <result property="age" column="studentAge"/>
+            <result property="schoolId" column="schoolId"/>
+        </collection>
+    </resultMap>
+
+
+    <select id="findSchoolById" parameterType="string" resultMap="schoolMap">
+        SELECT
+            a.`id`   schoolId,
+            a.`name` schoolName,
+            b.`id`   studentId,
+            b.`name` studentName,
+            b.`age`  studentAge
+        FROM
+            school a
+                LEFT JOIN student b
+                          ON a.`id` = b.`schoolId`
+        WHERE a.`id` = #{id}
+    </select>
+
+
+</mapper>

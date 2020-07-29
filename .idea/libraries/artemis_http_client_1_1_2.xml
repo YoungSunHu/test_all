@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="artemis-http-client-1.1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/artemis-http-client-1.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/artemis-http-client-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
