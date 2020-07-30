@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="effec159-60b6-4cd2-8d63-2b5f7cb829a7" name="Default Changelist" comment="" />
+    <list default="true" id="effec159-60b6-4cd2-8d63-2b5f7cb829a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/phaser/PhaserTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/phaser/PhaserTest04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/phaser/PhaserTest05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +38,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -54,6 +63,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570528823372" />
@@ -67,29 +77,29 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5411765" />
-    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.hqy.mybatisTest.service" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.hqy.concurrency08" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hqy.phaser" />
       <recent name="com.hqy.forkjoin" />
       <recent name="com.hqy.condition" />
       <recent name="com.hqy.concurrencypackage" />
       <recent name="com.hqy.concurrency08" />
-      <recent name="com.hqy.concurrency_TreadLocal" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IDEA_Space\Test-All\src\test" />
       <recent name="E:\IDEA_Space\Test-All\src\main\resources\com\hqy\mybatisTest" />
       <recent name="E:\IDEA_Space\Test-All\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hqy.concurrency08" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -104,20 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForkJoinRecursivTask02">
-    <configuration name="ConditionTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.condition.ConditionTest03" />
-      <module name="Test-All" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hqy.condition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PhaserTest05">
     <configuration name="ForkJoinRecursivTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hqy.forkjoin.ForkJoinRecursivTask" />
       <module name="Test-All" />
@@ -144,12 +141,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StampedLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.lock.StampedLockTest" />
+    <configuration name="PhaserTest04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.phaser.PhaserTest04" />
       <module name="Test-All" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hqy.lock.*" />
+          <option name="PATTERN" value="com.hqy.phaser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhaserTest05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.phaser.PhaserTest05" />
+      <module name="Test-All" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hqy.phaser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhaserTest05" />
+        <item itemvalue="Application.PhaserTest04" />
         <item itemvalue="Application.ForkJoinRecursivTask02" />
         <item itemvalue="Application.ForkJoinRecursivTask" />
         <item itemvalue="Application.StampedLockTest02" />
-        <item itemvalue="Application.StampedLockTest" />
-        <item itemvalue="Application.ConditionTest03" />
       </list>
     </recent_temporary>
   </component>
@@ -292,6 +302,10 @@
       <workItem from="1595897933441" duration="10404000" />
       <workItem from="1595984153528" duration="4944000" />
       <workItem from="1596013705617" duration="837000" />
+      <workItem from="1596072749360" duration="10021000" />
+      <workItem from="1596095681545" duration="3722000" />
+      <workItem from="1596101517262" duration="94000" />
+      <workItem from="1596101814419" duration="521000" />
     </task>
     <servers />
   </component>
@@ -326,6 +340,22 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
