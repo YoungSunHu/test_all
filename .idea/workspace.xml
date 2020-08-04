@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="effec159-60b6-4cd2-8d63-2b5f7cb829a7" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/BIOServer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/phaser/PhaserTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/phaser/PhaserTest04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/phaser/PhaserTest05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,9 +54,6 @@
     </option>
   </component>
   <component name="ProjectId" id="1S2Ymo3Fq00yDtOF5onzupmRUuK" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="MyBatisLogPluginparameters" value="Parameters:" />
@@ -79,35 +77,30 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5411765" />
-    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.hqy.mybatisTest.service" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.hqy.concurrency08" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hqy.phaser" />
       <recent name="com.hqy.forkjoin" />
       <recent name="com.hqy.condition" />
       <recent name="com.hqy.concurrencypackage" />
       <recent name="com.hqy.concurrency08" />
-      <recent name="com.hqy.concurrency_TreadLocal" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IDEA_Space\Test-All\src\test" />
       <recent name="E:\IDEA_Space\Test-All\src\main\resources\com\hqy\mybatisTest" />
       <recent name="E:\IDEA_Space\Test-All\src\main\resources" />
     </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="(" />
-    </option>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hqy.concurrency08" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -121,20 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BIOServer">
-    <configuration name="BIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.netty.BIOServer" />
-      <module name="Test-All" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hqy.netty.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PhaserTest05">
     <configuration name="ForkJoinRecursivTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hqy.forkjoin.ForkJoinRecursivTask" />
       <module name="Test-All" />
@@ -161,12 +141,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StampedLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.lock.StampedLockTest" />
+    <configuration name="PhaserTest04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.phaser.PhaserTest04" />
       <module name="Test-All" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hqy.lock.*" />
+          <option name="PATTERN" value="com.hqy.phaser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhaserTest05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.phaser.PhaserTest05" />
+      <module name="Test-All" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hqy.phaser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BIOServer" />
+        <item itemvalue="Application.PhaserTest05" />
+        <item itemvalue="Application.PhaserTest04" />
         <item itemvalue="Application.ForkJoinRecursivTask02" />
         <item itemvalue="Application.ForkJoinRecursivTask" />
         <item itemvalue="Application.StampedLockTest02" />
-        <item itemvalue="Application.StampedLockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -309,8 +302,10 @@
       <workItem from="1595897933441" duration="10404000" />
       <workItem from="1595984153528" duration="4944000" />
       <workItem from="1596013705617" duration="837000" />
-      <workItem from="1596030348749" duration="1113000" />
-      <workItem from="1596543776771" duration="3743000" />
+      <workItem from="1596072749360" duration="10021000" />
+      <workItem from="1596095681545" duration="3722000" />
+      <workItem from="1596101517262" duration="94000" />
+      <workItem from="1596101814419" duration="521000" />
     </task>
     <servers />
   </component>
@@ -358,6 +353,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
