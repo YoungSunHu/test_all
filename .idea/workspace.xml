@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="effec159-60b6-4cd2-8d63-2b5f7cb829a7" name="Default Changelist" comment="" />
+    <list default="true" id="effec159-60b6-4cd2-8d63-2b5f7cb829a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/BIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/phaser/PhaserTest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +37,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -45,6 +53,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1S2Ymo3Fq00yDtOF5onzupmRUuK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="MyBatisLogPluginparameters" value="Parameters:" />
@@ -54,6 +65,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570528823372" />
@@ -92,6 +104,11 @@
       <recent name="E:\IDEA_Space\Test-All\src\main\resources" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="(" />
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -104,13 +121,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForkJoinRecursivTask02">
-    <configuration name="ConditionTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.condition.ConditionTest03" />
+  <component name="RunManager" selected="Application.BIOServer">
+    <configuration name="BIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.netty.BIOServer" />
       <module name="Test-All" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hqy.condition.*" />
+          <option name="PATTERN" value="com.hqy.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BIOServer" />
         <item itemvalue="Application.ForkJoinRecursivTask02" />
         <item itemvalue="Application.ForkJoinRecursivTask" />
         <item itemvalue="Application.StampedLockTest02" />
         <item itemvalue="Application.StampedLockTest" />
-        <item itemvalue="Application.ConditionTest03" />
       </list>
     </recent_temporary>
   </component>
@@ -292,6 +309,8 @@
       <workItem from="1595897933441" duration="10404000" />
       <workItem from="1595984153528" duration="4944000" />
       <workItem from="1596013705617" duration="837000" />
+      <workItem from="1596030348749" duration="1113000" />
+      <workItem from="1596543776771" duration="3743000" />
     </task>
     <servers />
   </component>
@@ -326,6 +345,19 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
