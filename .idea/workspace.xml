@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="effec159-60b6-4cd2-8d63-2b5f7cb829a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/NIOByteBufferPutGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/NIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/NIOServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -308,6 +309,7 @@
       <workItem from="1596101517262" duration="94000" />
       <workItem from="1596101814419" duration="521000" />
       <workItem from="1596665798402" duration="1307000" />
+      <workItem from="1596721187465" duration="4986000" />
     </task>
     <task id="LOCAL-00001" summary="sd">
       <created>1596666142738</created>
