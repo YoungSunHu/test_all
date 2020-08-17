@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="effec159-60b6-4cd2-8d63-2b5f7cb829a7" name="Default Changelist" comment="phaser">
-      <change afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/executors/ThreadPoolExecutorBuild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/MappedBufferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/NIOFileChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/ScatterringAndGatheringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/http/TestHttpServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/http/TestServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/http/TestServerInitializer.java" afterDir="false" />
+    <list default="true" id="effec159-60b6-4cd2-8d63-2b5f7cb829a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/groupchat/GroupChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/groupchat/GroupChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/netty/NettyCilent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/netty/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/netty/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/netty/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/netty/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/zerocopy/NewIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/zerocopy/NewIOServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hqy/netty/BIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/BIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hqy/netty/MappedBufferTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hqy/netty/NIOByteBufferPutGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/NIOByteBufferPutGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hqy/netty/NIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/NIOClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hqy/netty/NIOFileChannel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hqy/netty/NIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/NIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hqy/netty/ScatterringAndGatheringTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hqy/netty/http/TestHttpServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hqy/netty/http/TestServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hqy/netty/http/TestServerInitializer.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +44,9 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="test_all" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -48,11 +62,6 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/maven/apache-maven-3.5.4" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -61,13 +70,18 @@
   </component>
   <component name="ProjectId" id="1S2Ymo3Fq00yDtOF5onzupmRUuK" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="MyBatisLogPluginparameters" value="Parameters:" />
     <property name="MyBatisLogPluginpreparing" value="Preparing:" />
     <property name="MyBatisLogPluginrunning" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -83,9 +97,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.5411765" />
+    <property name="project.structure.side.proportion" value="0.20804597" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -123,13 +137,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestServer">
-    <configuration name="MappedBufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.netty.MappedBufferTest" />
+  <component name="RunManager" selected="Application.NettyServer">
+    <configuration name="GroupChatClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.nettynio.groupchat.GroupChatClient" />
       <module name="Test-All" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hqy.netty.*" />
+          <option name="PATTERN" value="com.hqy.nettynio.groupchat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOFileChannel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.netty.NIOFileChannel" />
+    <configuration name="NettyCilent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.nettynio.netty.NettyCilent" />
       <module name="Test-All" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hqy.netty.*" />
+          <option name="PATTERN" value="com.hqy.nettynio.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScatterringAndGatheringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.netty.ScatterringAndGatheringTest" />
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.nettynio.netty.NettyServer" />
       <module name="Test-All" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hqy.netty.*" />
+          <option name="PATTERN" value="com.hqy.nettynio.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.netty.http.TestServer" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.nettynio.netty.Test" />
       <module name="Test-All" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hqy.netty.http.*" />
+          <option name="PATTERN" value="com.hqy.nettynio.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,26 +190,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolExecutorBuild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.executors.ThreadPoolExecutorBuild" />
+    <configuration name="com.hqy.nettynio.netty in Test-All" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test-All" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hqy.executors.*" />
+          <option name="PATTERN" value="com.hqy.nettynio.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.hqy.nettynio.netty" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.GroupChatClient" />
+      <item itemvalue="Application.NettyServer" />
+      <item itemvalue="Application.NettyCilent" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.com.hqy.nettynio.netty in Test-All" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestServer" />
-        <item itemvalue="Application.ScatterringAndGatheringTest" />
-        <item itemvalue="Application.MappedBufferTest" />
-        <item itemvalue="Application.NIOFileChannel" />
-        <item itemvalue="Application.ThreadPoolExecutorBuild" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.NettyCilent" />
+        <item itemvalue="JUnit.com.hqy.nettynio.netty in Test-All" />
+        <item itemvalue="Application.GroupChatClient" />
       </list>
     </recent_temporary>
   </component>
@@ -314,52 +336,26 @@
       <workItem from="1596072749360" duration="10021000" />
       <workItem from="1596095681545" duration="3722000" />
       <workItem from="1596101517262" duration="94000" />
-      <workItem from="1596101814419" duration="700000" />
-      <workItem from="1596287419861" duration="2848000" />
-      <workItem from="1596362334151" duration="611000" />
-      <workItem from="1596378772912" duration="64000" />
-      <workItem from="1596605508120" duration="4221000" />
-      <workItem from="1596672788475" duration="5669000" />
-      <workItem from="1597625028256" duration="10314000" />
+      <workItem from="1596101814419" duration="521000" />
+      <workItem from="1596665798402" duration="1307000" />
+      <workItem from="1596721187465" duration="4986000" />
+      <workItem from="1596897021936" duration="786000" />
+      <workItem from="1596932817290" duration="20883000" />
+      <workItem from="1596978232814" duration="645000" />
+      <workItem from="1597068478270" duration="419000" />
+      <workItem from="1597416528688" duration="1229000" />
+      <workItem from="1597560748793" duration="13550000" />
+      <workItem from="1597666974766" duration="4941000" />
     </task>
-    <task id="LOCAL-00001" summary="phaser">
-      <created>1596102406455</created>
+    <task id="LOCAL-00001" summary="sd">
+      <created>1596666142738</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1596102406455</updated>
+      <updated>1596666142738</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 14m 26s.xml">
-      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 17m 02s.xml">
-      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 19m 41s.xml">
-      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 19m 53s.xml">
-      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 25m 19s.xml">
-      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 25m 51s.xml">
-      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 28m 24s.xml">
-      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 29m 12s.xml">
-      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WriteTest_simpleWrite - 2019.10.08 at 16h 29m 49s.xml">
-      <configuration name="WriteTest.simpleWrite" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -378,8 +374,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="phaser" />
-    <option name="LAST_COMMIT_MESSAGE" value="phaser" />
+    <MESSAGE value="sd" />
+    <option name="LAST_COMMIT_MESSAGE" value="sd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
