@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="effec159-60b6-4cd2-8d63-2b5f7cb829a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/NIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/NIOServer.java" afterDir="false" />
+    <list default="true" id="effec159-60b6-4cd2-8d63-2b5f7cb829a7" name="Default Changelist" comment="phaser">
+      <change afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/executors/ThreadPoolExecutorBuild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/MappedBufferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/NIOFileChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/ScatterringAndGatheringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/http/TestHttpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/http/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/netty/http/TestServerInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,35 +123,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NIOByteBufferPutGet">
-    <configuration name="ForkJoinRecursivTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.forkjoin.ForkJoinRecursivTask" />
-      <module name="Test-All" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hqy.forkjoin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForkJoinRecursivTask02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.forkjoin.ForkJoinRecursivTask02" />
-      <module name="Test-All" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hqy.forkjoin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NIOByteBufferPutGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.netty.NIOByteBufferPutGet" />
+  <component name="RunManager" selected="Application.TestServer">
+    <configuration name="MappedBufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.netty.MappedBufferTest" />
       <module name="Test-All" />
       <extension name="coverage">
         <pattern>
@@ -156,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhaserTest04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.phaser.PhaserTest04" />
+    <configuration name="NIOFileChannel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.netty.NIOFileChannel" />
       <module name="Test-All" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hqy.phaser.*" />
+          <option name="PATTERN" value="com.hqy.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +150,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhaserTest05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.phaser.PhaserTest05" />
+    <configuration name="ScatterringAndGatheringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.netty.ScatterringAndGatheringTest" />
       <module name="Test-All" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hqy.phaser.*" />
+          <option name="PATTERN" value="com.hqy.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.netty.http.TestServer" />
+      <module name="Test-All" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hqy.netty.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadPoolExecutorBuild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.executors.ThreadPoolExecutorBuild" />
+      <module name="Test-All" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hqy.executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NIOByteBufferPutGet" />
-        <item itemvalue="Application.PhaserTest05" />
-        <item itemvalue="Application.PhaserTest04" />
-        <item itemvalue="Application.ForkJoinRecursivTask02" />
-        <item itemvalue="Application.ForkJoinRecursivTask" />
+        <item itemvalue="Application.TestServer" />
+        <item itemvalue="Application.ScatterringAndGatheringTest" />
+        <item itemvalue="Application.MappedBufferTest" />
+        <item itemvalue="Application.NIOFileChannel" />
+        <item itemvalue="Application.ThreadPoolExecutorBuild" />
       </list>
     </recent_temporary>
   </component>
@@ -307,16 +314,20 @@
       <workItem from="1596072749360" duration="10021000" />
       <workItem from="1596095681545" duration="3722000" />
       <workItem from="1596101517262" duration="94000" />
-      <workItem from="1596101814419" duration="521000" />
-      <workItem from="1596665798402" duration="1307000" />
-      <workItem from="1596721187465" duration="4986000" />
+      <workItem from="1596101814419" duration="700000" />
+      <workItem from="1596287419861" duration="2848000" />
+      <workItem from="1596362334151" duration="611000" />
+      <workItem from="1596378772912" duration="64000" />
+      <workItem from="1596605508120" duration="4221000" />
+      <workItem from="1596672788475" duration="5669000" />
+      <workItem from="1597625028256" duration="10314000" />
     </task>
-    <task id="LOCAL-00001" summary="sd">
-      <created>1596666142738</created>
+    <task id="LOCAL-00001" summary="phaser">
+      <created>1596102406455</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1596666142738</updated>
+      <updated>1596102406455</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -367,8 +378,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sd" />
-    <option name="LAST_COMMIT_MESSAGE" value="sd" />
+    <MESSAGE value="phaser" />
+    <option name="LAST_COMMIT_MESSAGE" value="phaser" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
