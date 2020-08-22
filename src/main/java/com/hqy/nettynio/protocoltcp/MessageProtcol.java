@@ -5,7 +5,7 @@ import lombok.Data;
 //协议包
 @Data
 public class MessageProtcol {
-    private int lenn;
+    private int len;
     private byte[] content;
 
 }

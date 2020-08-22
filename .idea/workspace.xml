@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="effec159-60b6-4cd2-8d63-2b5f7cb829a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/inboudHandlerAndOutboundHandler/MyByteToLongDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/inboudHandlerAndOutboundHandler/MyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/inboudHandlerAndOutboundHandler/MyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/inboudHandlerAndOutboundHandler/MyClientInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/inboudHandlerAndOutboundHandler/MyLongToByteEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/inboudHandlerAndOutboundHandler/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/inboudHandlerAndOutboundHandler/MyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/inboudHandlerAndOutboundHandler/MyserverInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/protocoltcp/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/protocoltcp/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/protocoltcp/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/protocoltcp/MyMessageDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/protocoltcp/MyMessageEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/protocoltcp/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/protocoltcp/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/protocoltcp/MyServerInitailizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/codec2/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/codec2/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/protocoltcp/MessageProtcol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/protocoltcp/MessageProtcol.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +83,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/hqy/nettynio/protocoltcp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -94,6 +96,12 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.hqy.mybatisTest.service" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hqy.concurrency08" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hqy.phaser" />
       <recent name="com.hqy.forkjoin" />
@@ -102,15 +110,10 @@
       <recent name="com.hqy.concurrency08" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\test_all\src\main\java\com\hqy\nettynio\protocoltcp" />
       <recent name="E:\IDEA_Space\Test-All\src\test" />
       <recent name="E:\IDEA_Space\Test-All\src\main\resources\com\hqy\mybatisTest" />
       <recent name="E:\IDEA_Space\Test-All\src\main\resources" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.hqy.concurrency08" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -125,13 +128,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyClient">
+  <component name="RunManager" selected="Application.MyClient (1)">
+    <configuration name="MyClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.nettynio.protocoltcp.MyClient" />
+      <module name="Test-All" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hqy.nettynio.protocoltcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hqy.nettynio.inboudHandlerAndOutboundHandler.MyClient" />
       <module name="Test-All" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hqy.nettynio.inboudHandlerAndOutboundHandler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hqy.nettynio.protocoltcp.MyServer" />
+      <module name="Test-All" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hqy.nettynio.protocoltcp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,19 +181,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyCilent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.nettynio.netty.NettyCilent" />
-      <module name="Test-All" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hqy.nettynio.netty.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hqy.nettynio.netty.NettyServer" />
       <module name="Test-All" />
@@ -178,33 +194,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hqy.nettynio.netty.Test" />
-      <module name="Test-All" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hqy.nettynio.netty.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.NettyServer" />
-      <item itemvalue="Application.NettyCilent" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.MyServer" />
       <item itemvalue="Application.MyClient" />
+      <item itemvalue="Application.MyServer (1)" />
+      <item itemvalue="Application.MyClient (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyClient (1)" />
+        <item itemvalue="Application.MyServer (1)" />
         <item itemvalue="Application.MyClient" />
         <item itemvalue="Application.MyServer" />
         <item itemvalue="Application.NettyServer" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.NettyCilent" />
       </list>
     </recent_temporary>
   </component>
@@ -338,6 +341,7 @@
       <workItem from="1597765203669" duration="44000" />
       <workItem from="1597839454243" duration="1207000" />
       <workItem from="1597933001507" duration="4511000" />
+      <workItem from="1598060433869" duration="7461000" />
     </task>
     <task id="LOCAL-00001" summary="sd">
       <created>1596666142738</created>
