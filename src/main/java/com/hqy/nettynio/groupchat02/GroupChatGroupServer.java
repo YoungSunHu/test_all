@@ -12,7 +12,7 @@ import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 
 public class GroupChatGroupServer {
-    private int PORT = 6668;
+    private int PORT;
 
     public GroupChatGroupServer(int PORT) {
         this.PORT = PORT;
@@ -23,26 +23,22 @@ public class GroupChatGroupServer {
         NioEventLoopGroup bossGroup = new NioEventLoopGroup(1);
         EventLoopGroup workerGroup = new NioEventLoopGroup();
 
-        try {
-            ServerBootstrap bootstrap = new ServerBootstrap();
-            bootstrap.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class)
-                    .option(ChannelOption.SO_BACKLOG, 128)
-                    .childOption(ChannelOption.SO_KEEPALIVE, true)
-                    .childHandler(new ChannelInitializer<SocketChannel>() {
-                        @Override
-                        protected void initChannel(SocketChannel ch) throws Exception {
-                            //向pipeline中加入解码器
-                            ch.pipeline().addLast("StringDecoder", new StringDecoder())
-                                    .addLast("StringEncoder", new StringEncoder())
-                                    .addLast(null);
-                        }
-                    });
-            System.out.println("netty 服务器启动!");
-            ChannelFuture channelFuture = bootstrap.bind(PORT).sync();
-        } finally {
-            bossGroup.shutdownGracefully();
-            workerGroup.shutdownGracefully();
-        }
+        ServerBootstrap bootstrap = new ServerBootstrap();
+        bootstrap.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class)
+                .option(ChannelOption.SO_BACKLOG, 128)
+                .childOption(ChannelOption.SO_KEEPALIVE, true)
+                .childHandler(new ChannelInitializer<SocketChannel>() {
+                    @Override
+                    protected void initChannel(SocketChannel ch) throws Exception {
+                        //向pipeline中加入解码器
+                        ch.pipeline().addLast("StringDecoder", new StringDecoder())
+                                .addLast("StringEncoder", new StringEncoder())
+                                .addLast(new GroupChatServerHandler());
+                    }
+                });
+        System.out.println("netty 服务器启动!");
+        ChannelFuture channelFuture = bootstrap.bind(PORT).sync();
+
     }
 
     public static void main(String[] args) {
